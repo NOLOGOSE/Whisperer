@@ -1,0 +1,13 @@
+faster-whisper
+sounddevice
+numpy
+keyboard
+pyperclip
+pyautogui
+anthropic
+python-dotenv
+
+# DO NOT install hf-xet — it causes an access violation crash on Windows
+# when Whisper tries to load the model.
+# If it gets pulled in as a transitive dependency, remove it immediately:
+#   pip uninstall hf-xet -y
