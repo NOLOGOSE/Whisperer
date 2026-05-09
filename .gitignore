@@ -7,3 +7,5 @@ __pycache__/
 debug_test.py
 *.zip
 .DS_Store
+
+.claude/

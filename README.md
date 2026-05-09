@@ -1,15 +1,17 @@
-# voice-input
+# Whisperer
+
+![Python](https://img.shields.io/badge/python-3.12-blue?logo=python&logoColor=white) ![License](https://img.shields.io/badge/license-MIT-green) ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey?logo=windows) ![Anthropic](https://img.shields.io/badge/AI-Claude%204.5-9146FF?logo=anthropic) ![Whisper](https://img.shields.io/badge/STT-Whisper-FF6F00) ![Last Commit](https://img.shields.io/github/last-commit/NOLOGOSE/Whisperer) ![Stars](https://img.shields.io/github/stars/NOLOGOSE/Whisperer?style=social)
 
 **Voice input that understands what you mean, not just what you say.**
 
 Hold a key → speak → release → text appears wherever your cursor is.  
-Unlike plain dictation, voice-input reads the intent embedded in your speech and acts on it.
+Unlike plain dictation, Whisperer reads the intent embedded in your speech and acts on it.
 
 ---
 
 ## What makes it different
 
-Most voice-input tools convert speech to text verbatim. voice-input goes one step further: it detects editing and writing instructions spoken alongside your content, and executes them.
+Most voice-input tools convert speech to text verbatim. Whisperer goes one step further: it detects editing and writing instructions spoken alongside your content, and executes them.
 
 | You say | You get |
 |---------|---------|
@@ -62,8 +64,8 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### 4. Get the project
 
 ```powershell
-git clone https://github.com/your-name/voice-input.git
-cd voice-input
+git clone https://github.com/NOLOGOSE/Whisperer.git
+cd Whisperer
 ```
 
 Or download the ZIP and extract it, then `cd` into the folder.
